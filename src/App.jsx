@@ -1,16 +1,6 @@
-// import { useState, useEffect } from "react";
 import HomeScreen from "./components/HomeScreen";
 import "./App.css";
 
-function App() {
- 
-  return (
-    <>
-      {/* <LoginScreen />  */}
-      <HomeScreen />
-      
-    </>
-  );
-}
+const App = () => <HomeScreen />;
 
 export default App;

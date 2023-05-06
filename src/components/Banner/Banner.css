@@ -1,0 +1,354 @@
+.banner {
+  position: relative;
+  height: 500px;
+  margin-top: 20px;
+  overflow: hidden;
+  background: none !important;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -40%);
+  z-index: 1;
+  height: auto;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  background-color: transparent !important;
+}
+
+.banner-text h1 {
+  font-size: 30px;
+  padding-bottom: 50px;
+  background-color: transparent;
+}
+
+.banner-text p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.banner-text, .banner-text h1, .banner-text p{
+  top: 45%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+
+.banner-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.banner-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.banner-play p {
+  font-size: 28px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.banner-play-button {
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.banner-play-button:hover {
+  transform: scale(1.2);
+}
+
+.banner-play-button:before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 38px;
+}
+
+.banner-watchlist-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.banner-watchlist-button button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.8;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-watchlist-button .banner_icon_1 {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fff;
+  }
+
+  .banner-watchlist-button .banner_icon_1:hover {
+    color: black;
+  }
+
+  .banner-watchlist-button .banner_icon_1 {
+    font-weight: 100;
+    font-size: 28px;
+    color: #fff;
+    }
+  
+
+.banner-watchlist-button button:hover {
+  background-color: white;
+  transform: scale(1.2);
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+
+.banner .banner-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.banner .banner-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, black 40%, transparent);
+}
+
+.banner .splide__slide,
+.splide__list,
+.splide__track,
+.splide {
+  height: 100%;
+  background: transparent  !important;
+}
+
+.banner .splide__pagination {
+  bottom: 30px;
+  background-color: transparent;
+  /* padding: 20px; */
+}
+
+.splide__pagination li {
+  display: inline-block;
+  line-height: 1;
+  list-style-type: none;
+  margin-right: 20px;
+  pointer-events: auto;
+  background-color: transparent;
+}
+
+.banner .splide {
+  /* height: 520px; */
+  background-color: transparent;
+}
+
+
+.banner-popup [role='tooltip'].popup-content {
+width: auto;
+}
+
+@media screen and (min-width: 1450px){
+
+  .banner {
+    position: relative;
+    height: 1000px;
+    margin-top: 20px;
+    overflow: hidden;
+    background: none !important;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .banner .banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .banner-image:after {
+  content: "";
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, black 30%, transparent);
+}
+
+.banner-text h1 {
+  padding-bottom: 150px;
+  font-size: 60px;
+}
+
+.banner-text p {
+  font-size: 40px;
+}
+
+.banner-text, .banner-text h1, .banner-text p {
+  top: 45%;
+  left: 2%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.banner-play-button {
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.banner-play-button:before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 90px;
+  margin-left: 2px;
+  
+}
+ .banner-play p {
+  font-size: 60px !important;
+  padding: 0 20px;
+}
+
+.banner-watchlist-button button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.8;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-watchlist-button button.banner_icon_1 {
+  font-size: 50px;
+  }
+}
+
+
+ .banner-popup [role='tooltip'].popup-content {
+  width: none !important;
+  background-color: yellow !important;
+}
+
+  
+
+
+@media screen and (max-width: 1024px) {
+  .banner .banner-image {
+    height: 100%;
+    background-size: cover;
+    background-position: right center;
+  }
+
+  .banner .banner-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, black 30%, transparent);
+  }
+  
+  .banner-text, .banner-text h1, .banner-text p {
+    top: 40%;
+    font-size: 14px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 10px; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner .banner-image {
+    height: 80%;
+    background-position: center;
+  }
+  
+  .banner-text, .banner-text h1, .banner-text p {
+    top: 40%;
+    font-size: 12px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 5px; */
+  }
+}

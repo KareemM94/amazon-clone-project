@@ -1,0 +1,76 @@
+.movie-list {
+  padding: 0px 40px;
+  /* margin: auto; */
+  overflow:hidden;
+}
+
+.genre-separator {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 50px 0px 20px 0;
+}
+
+.genre-separator:first-of-type {
+  margin:  50px 0 20px 0;
+}
+
+.genre-separator h2 > span {
+  color: #00d1ff;
+}
+
+.genre-separator h2 {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.movie-row {
+  margin-bottom: 40px;
+}
+
+.movie-row .splide__pagination {
+  display: none;
+  bottom: 4.5em;
+  left: 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+/* .splide-slide.splide-movie_card:first-of-type:hover {
+  transform: scale(1.2) translate3d(25px, 0px, 100px);
+  cursor: pointer;
+  border-radius: 5%;
+  position: absolute;
+} */
+
+
+
+
+.movie-row .splide__track {
+  /* height: 250px !important; */
+  /* padding: 25px 0 !important; */
+  /* background: yellow !important; */
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+.splide__arrow {
+  background: transparent !important;
+}
+
+.splide__arrow svg {
+  fill: grey !important;
+  font-size: 20px;
+}
+
+.splide__arrow--next {
+right: 0 !important;
+}
+
+.splide__arrow--prev {
+left: 0 !important;
+}

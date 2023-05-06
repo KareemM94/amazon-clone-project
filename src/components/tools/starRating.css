@@ -1,0 +1,15 @@
+.star-rating {
+    font-size: 14px;
+    color: white; /* set the color to gold */
+  }
+  
+  .star-rating .fa {
+    margin-right: 1px; /* add some space between the stars */
+  }
+
+  .star-rating .fa.empty {
+    margin-right: 1px;
+    color: rgb(63, 63, 63);
+    
+  }
+  
